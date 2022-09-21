@@ -1,0 +1,68 @@
+main {
+  max-width: 900px;
+  margin: auto;
+}
+.list-heading {
+  text-align: left;
+}
+.back-btn {
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.books {
+  padding: 0;
+}
+.books .book {
+  display: flex;
+  padding: 8px;
+  margin: 15px 8px;
+  border-radius: 5px;
+  color: black;
+}
+.book .thumbnail-container {
+  display: flex;
+}
+.thumbnail-container a {
+  display: flex;
+}
+.book img {
+  max-width: 120px;
+  max-height: 150px;
+}
+.book img {
+  width: 120px;
+  height: 150px;
+}
+.book .info {
+  width: 70%;
+  width: auto;
+  margin-left: 10px;
+}
+.book .title {
+  margin: 0;
+}
+.book p {
+  margin: 8px 0;
+}
+.book .toggle-description {
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .book p {
+    margin: 10px 0;
+  }
+  .book img {
+    width: 120px;
+    height: 150px;
+  }
+  .book .info {
+    margin-left: 20px;
+  }
+}
